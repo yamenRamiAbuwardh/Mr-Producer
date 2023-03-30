@@ -1,0 +1,345 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-color-:rgb(43,152,118);
+}
+/* Start Navbar */
+.navbar_con{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+
+    
+}
+.important_a{
+    font-size: 30px;
+    font-weight: 700;
+}
+.a_color_navbar{
+    color: rgb(48,158,125);
+    font-weight: 600;
+    font-size: 15px;
+
+
+}
+.a_color_navbar:hover{
+    color: rgb(48,158,125);
+
+}
+.a_navbar{
+    font-weight: 600;
+    color: black;
+    font-size: 15px;
+}
+.a_navbar:hover{
+    color: rgb(48, 158, 125);
+}
+/* Start Media Navbar */
+@media (max-width: 243px) { 
+    .important_a{
+        font-size: 20px;
+    }
+}
+@media (max-width:186px) { 
+    .important_a{
+        font-size: 13px;
+    }
+ }
+
+
+/* End Media Navbar */
+
+/* End Navbar */
+
+
+/* Start Section One  */
+.section_one{
+    margin-top:10px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/2000_5b5079bd4f78a.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+    
+}
+
+.div_position  h2{
+    font-size: 60px;
+    padding-top:10px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-shadow: 4px 4px black;
+color: white;
+background-color: rgb(33,116,93);
+}
+.div_position h3{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.div_position p{
+    color: white;
+    font-size: 30px;
+}
+/* End Section One  */
+/* Start media section One */
+@media (max-width: 284px) { 
+    .div_position h2 {
+        font-size: 40px;
+    }
+}
+
+ @media (max-width: 218px) { 
+    .div_position h3 {
+        font-size: 20px;
+    }
+    .div_position h2 {
+        font-size: 20px;
+    }
+
+}
+
+
+/* End  media section One */
+
+/* Start Section Two*/
+    .section_two {  
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .section_two h2 {
+        font-size: 30px;
+        font-weight: 600;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+    .section_two hr {
+        width: 55px;
+        height: 4px;
+        margin-bottom: 50px;
+        background-color: #2B9876;
+        border: 0;
+    }
+    .section_two p{
+        width: 90%;
+    }
+    .section_two img{
+         border-radius: 10px;
+         width: 80%;
+    }
+ /* Start Media Section Two */
+ @media (max-width: 963px) { 
+    .section_two img {
+        margin-top: 40px;
+    }
+  }
+ /* End Media Section Two */
+ /* End Section Two */
+
+
+ /* Start Section three */
+.section_three{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #fafafa;
+}
+.section_three h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+
+}
+.section_three hr {
+    width: 55px;
+    height: 4px;
+    margin-bottom: 50px;
+    background-color: #2B9876;
+    border: 0;
+}
+.section_three img{
+    width: 100%;
+}
+.section_three h4 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.section_three p {
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 60px;
+
+}
+.section_three button{
+    background-color: #2B9876;
+    color: white;
+    border: solid 3px #2B9876;
+    padding: 8px;
+    border-radius: 10px;
+}
+.section_three .div_padding{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.div_img_2{
+    margin-top: 20px;
+}
+ /* End Section three */
+ /* Start media Section 3 */
+ @media (max-width:764px) { 
+    .div_text_center{
+        text-align: center;
+    }
+    
+  }
+  @media (max-width: 186px) { 
+    .h4_respon{
+        font-size: 16px;
+    }
+   }
+ /* End media Section 3 */
+
+ /* Start Section Four */
+
+   .section_four{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-image: url(../images/2000_5b5079e0a1a23.webp);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+   }
+   .section_four h3 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+   }
+   .section_four h2 {
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+   }
+
+/* End Section Four */
+/* We don't have media query here  */
+/* Start Section Five */
+.section_five h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+
+}
+.section_five hr {
+    width: 55px;
+    height: 4px;
+    margin-bottom: 50px;
+    background-color: #2B9876;
+    border: 0;
+}
+.section_five {
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+.section_five input{
+    padding: 10px 45px;
+    width: calc(100% / 4.5);
+    margin-right: 30px;
+}
+.section_five button {
+    color:white;
+    background-color: #2B9876;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: solid 4px #2B9876;
+
+
+}
+/* End Section Five */
+/* Start media section five */
+@media (max-width: 991.98px) { 
+    .section_five input {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0;
+        padding: 0;
+    }
+    .section_five button {
+        width: 100%;
+        margin: 0;
+    }
+ }
+/* End media section five */
+/* Start Section Sex */
+.section_sex h4 {
+    color: #17355E;
+    font-weight:500;
+}
+.section_sex p {
+    color: #2B9876;
+}
+.section_sex p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.section_sex h2 {
+    color: #2B9876;
+    cursor: pointer;
+}
+/* End Section Sex */
+/* We don't have media query here  */
+
+/* Start Footer  */
+footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+footer h2 {
+    color: #2B9876;
+    
+}
+footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+footer ul li {
+    margin-right: 10px;
+    font-size: 13px;
+}
+/* End Footer */
+/* start media footer */
+@media (max-width: 575.98px) { 
+    footer ul{
+        display: none   ;
+    }
+}
+
+/* End  media footer */
+
+
